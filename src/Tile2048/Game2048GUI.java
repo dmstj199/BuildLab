@@ -21,6 +21,6 @@ public class Game2048GUI extends JFrame {
                 super.keyPressed(e);
             }
         });
-
+//2024.04.30
     }
 }

@@ -1,4 +1,5 @@
 package Tile2048;
+//2024.04.30
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,7 +10,6 @@ public class Game2048 {
     static int N;
     static String command;
     static int[][] map;
-
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
