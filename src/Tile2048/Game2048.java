@@ -38,7 +38,7 @@ public class Game2048 {
         bw.close();
         br.close();
     }
-    static void move(){
+   static void moveTiles(){
         int index;
         if(command.equals("up")){
             for(int j=0; j<N; j++) {
@@ -180,6 +180,6 @@ public class Game2048 {
                 }
             }
         }
-        move();
+        moveTiles();
     }
 }
