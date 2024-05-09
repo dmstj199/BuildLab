@@ -55,6 +55,8 @@ public class Game2048 {
             tiles = newTiles;
             addTile();
             log.info("Board moved in direction {}", direction);
+        }else{
+            log.info("No movement", direction);
         }
 
         if (!canMoveAnywhere()) {

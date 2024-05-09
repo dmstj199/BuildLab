@@ -34,16 +34,16 @@ public class Game2048GUI extends JFrame {
                 int direction = -1;
                 switch (e.getKeyCode()) {
                     case KeyEvent.VK_UP:
-                        game.move(0);
+                        direction = 0;
                         break;
                     case KeyEvent.VK_DOWN:
-                        game.move(1);
+                        direction = 1;
                         break;
                     case KeyEvent.VK_LEFT:
-                        game.move(2);
+                        direction = 2;
                         break;
                     case KeyEvent.VK_RIGHT:
-                        game.move(3);
+                        direction = 3;
                         break;
                 }
                 if (direction != -1) {
